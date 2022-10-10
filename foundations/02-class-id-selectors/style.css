@@ -1,0 +1,16 @@
+p{
+	background-color: #d93876;
+	font-family: "Verdana","DejaVu Sans",sans-serif;
+}
+
+
+.styleEven1{
+	color: blue;
+	font-size: 36px;
+}
+
+.styleEven2{
+	background-color: #15fa0c;
+	font-size: 24px;
+	font-weight: bold;
+}
