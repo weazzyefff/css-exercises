@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Function library example</title>
+  <style>
+    input {
+      font-size: 2em;
+      margin: 10px 1px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    function add7(num) {
+      num += 7;
+      console.log(num);
+    };
+    add7(7);
+
+    function multiply(num1, num2) {
+      sum = num1 * num2;
+      console.log(sum)
+    };
+    multiply(2,2);
+
+    function capitalize(word) {
+      word = word.charAt(0).toUpperCase() + word.slice(1);
+      console.log(word)
+    }
+    capitalize("daniel")
+
+    function lastLetter(word) {
+      word = word.slice(-1);
+    };
+    lastLetter("grey");
+    </script>
+</body>
+
+</html>
